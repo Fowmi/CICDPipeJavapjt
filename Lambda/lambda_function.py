@@ -16,6 +16,7 @@ def lambda_handler(event, context):
         }
     
     # Initialize EC2 client
+    # https://www.youtube.com/watch?v=DgavixR_w5Y&t=1190s
     ec2_client = boto3.client('ec2')
     try:
         # Modify the volume
