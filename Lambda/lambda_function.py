@@ -34,3 +34,4 @@ def lambda_handler(event, context):
             "statusCode": 500,
             "message": f"Failed to modify volume: {str(e)}"
         }
+# Cloudwatch---Source-ec2 volume add;Dest=Lambda. Whenever adding volume, trigger lambda and change into gp3 by triggering lambda
