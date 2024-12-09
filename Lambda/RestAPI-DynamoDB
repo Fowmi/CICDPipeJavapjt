@@ -138,3 +138,4 @@ def build_response(status_code, body):
         },
         'body': json.dumps(body, cls=DecimalEncoder)
     }
+# Build a REST API (CRUD) with AWS Lambda, API Gateway & DynamoDB Using Python - Tech with Hitch
